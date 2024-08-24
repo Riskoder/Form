@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 15px 5px rgba(109, 108, 108, 0.3);
+  border: 1px solid #f5f5f59c;
+  border-radius: 1.5rem;
+  overflow: hidden;
+
+  height: 50%;
+  width: 800px;
+}
+
+.hero-image {
+  background-image: url(img/thumb-1920-1341970.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  height: 100%;
+  width: 40%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+
+  width: 100%;
+  padding: 10px;
+
+  background-color: #00000066;
+}
+
+.logo-container > img {
+  max-height: 80px;
+}
+
+.logo-container > h2 {
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+.image-creator {
+  position: absolute;
+  bottom: 0;
+  color: whitesmoke;
+
+  margin-bottom: 8.5px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  place-items: center;
+  text-align: center;
+
+  width: 60%;
+  height: 100%;
+}
+
+.form-title {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.user-info > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.user-info input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 140px;
+  padding: 10px 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid rgba(245, 245, 245, 0.508);
+}
+
+.btn {
+  padding: 10px 60px;
+  border: 2px solid rgba(245, 245, 245, 0.508);
+  border-radius: 12px;
+  background-color: rgb(122, 14, 14);
+}
+
+.login {
+  margin-bottom: 8.5px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
